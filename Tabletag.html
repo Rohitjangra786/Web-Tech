@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+</head>
+<body>
+    <!-- Cellspacing is used to give the some space in the table on the web page. We have to type is manually because we not gonna get any Suggestion in them -->
+    
+    <!-- Cellpadding is used to give the some space in the Cell inside table on the web page. We have to type is manually because we not gonna get any Suggestion in them -->
+    
+    <table border="1px" cellspacing="10px" cellpadding="5px">
+
+        <!-- tablehead is used to give the indentation  only. -->
+        <thead>
+            <!-- tr stands for the table row -->
+            <tr>  
+                <!-- th stands for the table head -->
+                <th>Class 1</th> 
+                <th>Class 2</th>
+                <th>Class 3</th>
+            </tr>
+        </thead>
+        <!-- table body is used to give the indentation only  -->
+        <tbody>
+            <tr>
+                <!-- Rowspan is used to merge the two or more table rows in the table on the web page. It can only be used with td and th tag.-->
+                <th>Web</th>
+                <th>Java</th>
+                <th rowspan="2">Web</th>
+            </tr>
+            <tr>
+                <th>Java</th>
+                <th>Java</th>
+                <!-- <th>Web</th> -->
+            </tr>
+            <tr>
+                <!-- Colspan is used to merge the two or more table Columns in the table on the web page. It can only be used with td and th tag.-->
+                <th colspan="2">Web</th>
+                <!-- <th>Web</th> -->
+                <th>Java</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
