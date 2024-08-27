@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            border: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Form tag is used to create the form on the web page by using form tag. -->
+    <form action="" method="">
+        <label for="UserName">UserName :</label>
+        <input type="text" name="" id="UserName">  
+        <br>
+        <!-- Shortcut to Apper the tag is (Input:text) -->
+        <label for="Password">Password :</label>
+        <input type="password" name="" id="Password">
+        <br>
+        <!-- br tag is use to break the line in the web page -->
+
+        <label for="Email">Email :</label>
+        <input type="email" name="" id="Email">
+        <br>
+
+        <label for="DOB">DOB :</label>
+        <input type="datetime-local" name="" id="DOB">
+        <br>
+
+        <label for="City">City :</label>
+        <!-- If we want to create the Option for the drop down menu we have the Select attributes and inside the option tag we have to use the option tag. -->
+        <select name="" id="City">
+            <option value=""></option>
+            <option value="">Gurugram</option>
+            <option value="">Delhi</option>
+            <option value="">Pune</option>
+            <option value="">Mumbai</option>
+            <option value="">Dadri</option>
+        </select>
+        <br>
+
+        <!-- Now if we find out the Different gender in the web page we have to use the input field and we have to pass the gender inside the name attributes. If we not gonna passs the gender inside the name so we can select all the buttons -->
+        <label for="Gender">Gender :</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Male</label>
+
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">FeMale</label>
+
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Others</label>
+        <br>
+        
+        <!-- Now if we want to create the checkbox with mutiple option can be selected inside the web page we have to use the input:checkbox command and use the label -->
+        <label for="Skills">Skills :</label>
+        <input type="checkbox" name="" id="Skills">
+        <label for="">Java</label>
+        <input type="checkbox" name="" id="Skills">
+        <label for="">Python</label>
+        <input type="checkbox" name="" id="Skills">
+        <label for="">C++</label>
+        <input type="checkbox" name="" id="Skills">
+        <label for="">C#</label>
+        <br>
+
+        <!-- Now if we want to create the submit button we have to use the input:submit -->
+        <input type="submit" name="" id="">
+        <input type="reset" name="" id="">
+
+        <!-- The default behaviour of the form is Refreshing -->
+    </form>
+</body>
+</html>

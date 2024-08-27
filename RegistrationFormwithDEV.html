@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            border: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="">
+        
+        <fieldset>
+            <legend>Registration Form</legend>
+        <div>
+            <!-- required attribute will use to make the label required for the user. the user not goinna skip the lable in the web page -->
+            <!-- placeholder in the input field it will give the idea to the user what it will gonnna write on the input lablel -->
+            <!-- In the readonly attributes we can't able to change the user name which are written inside the value. -->
+            <label for="UserName">UserName :</label>
+            <input type="text" name="" id="UserName" required placeholder="Enter Your Username" value="Rohit@123" readonly>
+        </div>  
+        
+        <div>
+            <!-- if we want to add the length of the passwrod we have to use the (max length and the min length for the String Value) & (Max and min for the number e.g Age ,quantity etc.) in the input label -->
+            <label for="Password">Password :</label>
+            <input type="password" name="" id="Password" required placeholder="Enter Your Password" minlength="5" maxlength="12">
+        </div>
+        
+        <div>
+            <!-- if we want to validate the field with the pattern we have to use the pattern attribute e.g:- pattern="[A-Z 0-9]{8}. In the curly brackets we have to pass the length and inside we only pass the String to be validated inside the box -->
+            <label for="Email">Email :</label>
+            <input type="email" name="" id="Email" required placeholder="Enter Your Email" pattern="[A-Z @ 0-9]{8}">
+        </div>
+
+        <div>
+            <label for="otp">OTP</label>
+            <!-- size attribute is used to make the input field smaller according to the Field. -->
+            <input type="text" name="" id="otp" placeholder="- -   - - " size="1" required max="9999">
+        </div>
+
+        <div>
+            <!-- for the Quantity we have the attribute named (input:number) for the Quantity and we have to use the Step for the increse or decrese the Quantity -->
+            <!-- if we want to add the length of the Quantity we have to use the (Max and min for the number e.g Age ,quantity etc.) in the input label -->
+            <label for="Quantity">Quantity</label>
+            <input type="number" name="" id="Quantity" step="1" size="1" placeholder="Quantity" required min="20" max="100">
+        </div>
+
+        <div>
+            <!-- textarea attributes is used to give the space to wrrte in the rows -->
+            <label for="DOB">DOB :</label>
+            <input type="datetime-local" name="" id="DOB" placeholder="Enter DOB">
+            <textarea name="" rows="5" id=""></textarea>
+        </div>
+
+        <div>
+            <label for="">Products : </label>
+            <input type="text" name="" id="" placeholder="Select Products" list="Products">
+            <datalist  id="Products">
+                <option value="Apple1"></option>
+                <option value="Apple2"></option>
+                <option value="Apple3"></option>
+                <option value="Apple4"></option>
+                <option value="Apple5"></option>
+                <option value="Apple6"></option>
+                <option value="Apple7"></option>
+                <option value="Apple8"></option>
+                <option value="Apple9"></option>
+            </datalist>
+        </div>
+    
+        <div>
+            <label for="City">City :</label>
+            <select name="" id="City">
+            <!-- if we are using the selected attritubes used for default selected in the web page. and we are using the disabled attribute than the user will not able to select the (Select city name option on the web page) -->
+                <option value="" selected disabled>Select City Name</option>
+                <option value="">Gurugram</option>
+                <option value="">Delhi</option>
+                <option value="">Pune</option>
+                <option value="">Mumbai</option>
+                <option value="">Dadri</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Gender">Gender :</label>
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Male</label>
+
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">FeMale</label>
+
+            <input type="radio" name="Gender" id="Gender">
+            <label for="">Others</label>
+        </div>
+        
+        <div>
+            <label for="Skills">Skills :</label>
+            <input type="checkbox" name="" id="Skills">
+            <label for="">Java</label>
+            <input type="checkbox" name="" id="Skills">
+            <label for="">Python</label>
+            <input type="checkbox" name="" id="Skills">
+            <label for="">C++</label>
+            <input type="checkbox" name="" id="Skills">
+            <label for="">C#</label>
+        </div>
+        
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" name="" id="">
+        </div>
+
+        <div>
+            <label for="">Attach File</label>
+            <input type="file" name="Upload your Resume" id="">
+        </div>
+
+        <div>
+            <label for="">Color</label>
+            <input type="color" name="Give Color" id="">
+        </div>
+
+        <div>
+            <label for="">Hidden</label>
+            <input type="hidden" name="Hidden">
+        </div>
+
+        <div>
+            <label for="search">Search The Content</label>
+            <input type="search" name="Seach" id="search">
+        </div>
+
+        <div>
+            <label for="">For URL</label>
+            <input type="url" name="URL" id="">
+        </div>
+
+        <div>
+            <label for="myRange">Range</label>
+            <input type="range" id="myRange" min="0" max="100" value="50">
+        </div>
+
+        </fieldset>
+        
+    </form>
+</body>
+</html>
