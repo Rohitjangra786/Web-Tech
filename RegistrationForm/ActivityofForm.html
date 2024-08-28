@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Admission Registration</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>General Admission Registration</h2></legend>
+            <form class="container">
+                <div class="form-container">
+                    <form class="form-section">
+
+                        <div>
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                        </div>
+
+                    
+                        <div>
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                        </div>
+                    
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="sample@example.com" required>
+                        </div>
+                    
+                        <div>
+                            <label for="gender">Gender</label>
+                            <div class="radio-group">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                        </div>
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div>
+                            <label for="emergencyContact">Emergency Contact</label>
+                            <input type="tel" id="emergencyContact" name="emergencyContact">
+                        </div>
+
+                        <div>
+                            <label for="parking">Do you require parking?</label>
+                            <div class="radio-group">
+                                <input type="radio" id="parkingYes" name="parking" value="yes">
+                                <label for="parkingYes">Yes</label>
+                                <input type="radio" id="parkingNo" name="parking" value="no">
+                                <label for="parkingNo">No</label>
+                        </div>
+
+                        <div>
+                            <label for="roomPreference">What is your room preference?</label>
+                            <div class="radio-group">
+                                <input type="radio" id="singleRoom" name="roomPreference" value="single">
+                                <label for="singleRoom">Single Room</label>
+                                <br>
+                                <input type="radio" id="sharedRoom" name="roomPreference" value="shared">
+                                <label for="sharedRoom">Shared Room</label>
+                                <br>
+                                <input type="radio" id="noRoomNeeded" name="roomPreference" value="noRoom">
+                                <label for="noRoomNeeded">No Room Needed</label>
+                        </div>
+                    </div>
+                
+                    <div>
+                        <label for="dietaryRestrictions">Do you have dietary restrictions?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="none" name="dietaryRestrictions" value="none">
+                            <label for="none">None</label>
+                            <br>
+                            <input type="radio" id="vegetarian" name="dietaryRestrictions" value="vegetarian">
+                            <label for="vegetarian">Vegetarian</label>
+                            <br>
+                            <input type="radio" id="gluten" name="dietaryRestrictions" value="gluten">
+                            <label for="gluten">Gluten Allergy</label>
+                            <br>
+                            <input type="radio" id="lactose" name="dietaryRestrictions" value="lactose">
+                            <label for="lactose">Lactose Allergy</label>
+                            <br>
+                            <input type="radio" id="nut" name="dietaryRestrictions" value="nut">
+                            <label for="nut">Nut Allergy</label>
+                            <br>
+                            <input type="radio" id="shellfish" name="dietaryRestrictions" value="shellfish">
+                            <label for="shellfish">Shellfish Allergy</label>
+                    </div>
+                
+                        <label for="activities">What activities will you attend?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="awards" name="activities" value="awards">
+                            <label for="awards">Awards Gala Dinner</label>
+                            <br>
+                            <input type="radio" id="luncheon" name="activities" value="luncheon">
+                            <label for="luncheon">Luncheon</label>
+                            <br>
+                            <input type="radio" id="townHall" name="activities" value="townHall">
+                            <label for="townHall">Town Hall</label>
+                        </div>
+                    
+                        <label for="showAttendees">Do you want to see the list of other attendees and their profiles on the official event app?</label>
+                        <div class="radio-group">
+                            <input type="radio" id="seeYes" name="showAttendees" value="yes">
+                            <label for="seeYes">Yes</label>
+                            <input type="radio" id="seeNo" name="showAttendees" value="no">
+                            <label for="seeNo">No</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </fieldset>
+    
+</body>
+</html>
