@@ -1,0 +1,39 @@
+#q1{
+    /* we can make the container on the basic of the CSS applied on the web page. we have to pass the height weight and the border on the css. */
+    height: 200px;width: 200px;border: 1px solid;
+    
+    /* we can take the function liner gradient ot use the color to the backgroud only not the text.. inside the  function we can pass the infinite color.
+    if we want ot change the direction of the color we can pass the pharase (to right)
+    if we want ot change the direction of the color we can pass the pharase (to right bottom) we can change the direction of the color in the diagonal format */
+    /* background: linear-gradient(to right bottom, red,green,yellow,skyblue); */
+
+    /* with the help of the conic gradient we can take the color from the center and we are not goinna get any suggestion when tyoing the conicgradient and deg is used to give the Specific angle in the CSS*/
+    background: conic-gradient(red 30deg 45deg,green 45deg 180deg,yellow 180deg 225deg,skyblue 225deg 360deg);
+    /* border radius is used to give the border of the container.. */
+    
+}
+#q2{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(red 0deg 90deg,green 90deg 180deg,yellow 180deg 225deg,skyblue 225deg 360deg);
+}
+#q3{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(red 0deg 120deg,green 120deg 240deg,yellow 240deg 360deg);
+}
+#q4{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(red 0deg 45deg,green 45deg 135deg,yellow 135deg 180deg,skyblue 180deg 225deg);
+}
+#q5{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(red 30deg 45deg,green 45deg 135deg,yellow 135deg 225deg,skyblue 225deg 315deg, red 315deg 360deg);
+}
+#q6{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(red 0deg 90deg,green 90deg 180deg,yellow 180deg 225deg,skyblue 225deg 270deg, blue 270deg 315deg, brown 315deg 360deg);
+}
+#q7{
+    height: 200px;width: 200px;border: 1px solid;
+    background: conic-gradient(pink 0deg 45deg,black 45deg 90deg,red 90deg 125deg,green 125deg 180deg,yellow 180deg 225deg,skyblue 225deg 270deg, blue 270deg 315deg, brown 315deg 360deg);
+}
+

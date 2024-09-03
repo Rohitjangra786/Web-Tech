@@ -1,0 +1,22 @@
+h1{
+    text-decoration: line-through ; 
+    /* it will use in the CSS to make the text strike. */
+    text-decoration-color: red;
+    /* color is used to give the text color in the given line. */
+    text-decoration-style: dotted;  
+    /* style is used to give the pattern inside the text in the CSS. */
+    text-decoration-thickness: 10px;
+    /* it is used to give the thickness in the specific line CSS */
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    /* letter spacing and the word spacing property is used to give the space between them */
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+p{
+    text-indent: 10%;
+    /* text align next is used to align the text in the end on the web page. */
+    text-align-last: center; 
+}

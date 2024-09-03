@@ -1,0 +1,21 @@
+.r1{
+    color: blueviolet;
+    background-color: antiquewhite;
+
+}
+input[type="text"]{
+    background-color: rgb(225, 157, 157);
+
+}
+label[for="Male"]{
+    color: blue;
+}
+label[for="Female"]{
+    color: rgb(255, 0, 25);
+}
+label[for="Others"]{
+    color: rgb(255, 0, 195);
+}
+input[placeholder="Enter Your Number"]{
+    color: rgb(181, 248, 13);
+}

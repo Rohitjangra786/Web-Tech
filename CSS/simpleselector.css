@@ -1,0 +1,69 @@
+/* #Head1{
+    color: blue;
+    font-size: 54px;
+    background-color: blueviolet;
+
+}
+#Head2{
+    color: rgb(162, 16, 87);
+    font-size: 54px;
+    background-color: rgb(185, 170, 199);
+
+}
+#Head3{
+    color: rgb(114, 10, 14);
+    font-size: 54px;
+    background-color: rgb(24, 107, 151);
+
+}
+#Head4{
+    color: rgb(30, 222, 55);
+    font-size: 54px;
+    background-color: rgb(132, 172, 97);
+
+}
+#Head5{
+    color: rgb(13, 13, 151);
+    font-size: 54px;
+    background-color: rgb(197, 175, 218);
+
+}
+.Headingg{
+    color: rgb(181, 27, 27);
+    background-color: rgb(41, 148, 195);
+    font: 40px;
+}
+h2{
+    color: rgb(203, 124, 21);
+    background-color: aqua;
+    font-size: large;
+}
+
+#r1,#r3,.r2,.r4{
+    color: brown;
+    background-color: aqua;
+} */
+
+/* section article div h1{
+    color: chartreuse;
+}
+section main div h1{
+    color: rgb(203, 42, 165);
+} */
+/* .Parent1 > h1{
+
+    color: chartreuse;
+}
+.Parent2 > h1{
+    color: rgb(70, 110, 221);
+} */
+
+/* h1 + p {
+    color: blue;
+} */
+/* h1 ~ p{
+    color: brown;
+} */
+
+
+
